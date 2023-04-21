@@ -52,9 +52,9 @@ partial class frmMain
             this.tbActividad = new System.Windows.Forms.TextBox();
             this.tbPuntuacion = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.btnActualizar = new System.Windows.Forms.Button();
             this.btnLimpiar = new System.Windows.Forms.Button();
-            this.btnSalir = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -176,7 +176,7 @@ partial class frmMain
             this.lvData.Location = new System.Drawing.Point(3, 54);
             this.lvData.MultiSelect = false;
             this.lvData.Name = "lvData";
-            this.lvData.Size = new System.Drawing.Size(891, 287);
+            this.lvData.Size = new System.Drawing.Size(891, 288);
             this.lvData.TabIndex = 1;
             this.lvData.UseCompatibleStateImageBehavior = false;
             this.lvData.View = System.Windows.Forms.View.Details;
@@ -216,11 +216,11 @@ partial class frmMain
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel4, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel5, 1, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 347);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 348);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(891, 142);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(891, 141);
             this.tableLayoutPanel3.TabIndex = 2;
             // 
             // tableLayoutPanel4
@@ -244,7 +244,7 @@ partial class frmMain
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(439, 136);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(439, 135);
             this.tableLayoutPanel4.TabIndex = 0;
             // 
             // label3
@@ -259,7 +259,7 @@ partial class frmMain
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 34);
+            this.label4.Location = new System.Drawing.Point(3, 33);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(62, 15);
             this.label4.TabIndex = 1;
@@ -268,7 +268,7 @@ partial class frmMain
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(3, 68);
+            this.label5.Location = new System.Drawing.Point(3, 66);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(57, 15);
             this.label5.TabIndex = 2;
@@ -277,7 +277,7 @@ partial class frmMain
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(3, 102);
+            this.label6.Location = new System.Drawing.Point(3, 99);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(68, 15);
             this.label6.TabIndex = 3;
@@ -295,7 +295,7 @@ partial class frmMain
             // tbEstudiante
             // 
             this.tbEstudiante.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbEstudiante.Location = new System.Drawing.Point(77, 39);
+            this.tbEstudiante.Location = new System.Drawing.Point(77, 38);
             this.tbEstudiante.Name = "tbEstudiante";
             this.tbEstudiante.Size = new System.Drawing.Size(359, 23);
             this.tbEstudiante.TabIndex = 5;
@@ -303,7 +303,7 @@ partial class frmMain
             // tbActividad
             // 
             this.tbActividad.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbActividad.Location = new System.Drawing.Point(77, 73);
+            this.tbActividad.Location = new System.Drawing.Point(77, 71);
             this.tbActividad.Name = "tbActividad";
             this.tbActividad.Size = new System.Drawing.Size(359, 23);
             this.tbActividad.TabIndex = 6;
@@ -311,7 +311,7 @@ partial class frmMain
             // tbPuntuacion
             // 
             this.tbPuntuacion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbPuntuacion.Location = new System.Drawing.Point(77, 107);
+            this.tbPuntuacion.Location = new System.Drawing.Point(77, 105);
             this.tbPuntuacion.Name = "tbPuntuacion";
             this.tbPuntuacion.Size = new System.Drawing.Size(359, 23);
             this.tbPuntuacion.TabIndex = 7;
@@ -330,43 +330,15 @@ partial class frmMain
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 1;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(440, 136);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(440, 135);
             this.tableLayoutPanel5.TabIndex = 1;
-            // 
-            // btnActualizar
-            // 
-            this.btnActualizar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnActualizar.AutoSize = true;
-            this.btnActualizar.Location = new System.Drawing.Point(5, 96);
-            this.btnActualizar.Margin = new System.Windows.Forms.Padding(5);
-            this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Padding = new System.Windows.Forms.Padding(5);
-            this.btnActualizar.Size = new System.Drawing.Size(136, 35);
-            this.btnActualizar.TabIndex = 3;
-            this.btnActualizar.Text = "Actualizar";
-            this.btnActualizar.UseVisualStyleBackColor = true;
-            // 
-            // btnLimpiar
-            // 
-            this.btnLimpiar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnLimpiar.AutoSize = true;
-            this.btnLimpiar.Location = new System.Drawing.Point(151, 96);
-            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(5);
-            this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Padding = new System.Windows.Forms.Padding(5);
-            this.btnLimpiar.Size = new System.Drawing.Size(136, 35);
-            this.btnLimpiar.TabIndex = 4;
-            this.btnLimpiar.Text = "Limpiar";
-            this.btnLimpiar.UseVisualStyleBackColor = true;
             // 
             // btnSalir
             // 
             this.btnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSalir.AutoSize = true;
-            this.btnSalir.Location = new System.Drawing.Point(297, 96);
+            this.btnSalir.Location = new System.Drawing.Point(297, 95);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(5);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Padding = new System.Windows.Forms.Padding(5);
@@ -374,6 +346,37 @@ partial class frmMain
             this.btnSalir.TabIndex = 5;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
+            // btnActualizar
+            // 
+            this.btnActualizar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnActualizar.AutoSize = true;
+            this.btnActualizar.Location = new System.Drawing.Point(5, 95);
+            this.btnActualizar.Margin = new System.Windows.Forms.Padding(5);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Padding = new System.Windows.Forms.Padding(5);
+            this.btnActualizar.Size = new System.Drawing.Size(136, 35);
+            this.btnActualizar.TabIndex = 3;
+            this.btnActualizar.Text = "Actualizar";
+            this.btnActualizar.UseVisualStyleBackColor = true;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
+            // 
+            // btnLimpiar
+            // 
+            this.btnLimpiar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnLimpiar.AutoSize = true;
+            this.btnLimpiar.Location = new System.Drawing.Point(151, 95);
+            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(5);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Padding = new System.Windows.Forms.Padding(5);
+            this.btnLimpiar.Size = new System.Drawing.Size(136, 35);
+            this.btnLimpiar.TabIndex = 4;
+            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // frmMain
             // 
